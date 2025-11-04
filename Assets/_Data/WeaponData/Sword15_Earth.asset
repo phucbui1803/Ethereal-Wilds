@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98f36a6544971ed4d93cf7d220ebc45f, type: 3}
+  m_Name: Sword15_Earth
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  weaponName: Terra Ruinblade
+  weaponPrefab: {fileID: 8947079371753237599, guid: 252690cb8ef2375428d1246baa1d9d85, type: 3}
+  renderTexture: {fileID: 0}
+  baseHP: 120
+  baseAtk: 70
+  baseDef: 30
+  baseCritRate: 0.02
+  baseCritDamage: 0.03
+  maxLevel: 90
+  currentLevel: 1
+  upgradePercent: 0.03
+  isUnlocked: 0
+  unlockMaterial: {fileID: 11400000, guid: 406e8b304d0f57f47be8963e91e5d3a3, type: 2}
+  unlockCost: 100
+  upgradeMaterial: {fileID: 11400000, guid: fd9877579e7178942b84d331beee2574, type: 2}
+  upgradeCostPerLevel: 10

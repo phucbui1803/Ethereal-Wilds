@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b4c07cf497659945863f599e514e966, type: 3}
+  m_Name: Potion9
+  m_EditorClassIdentifier: Assembly-CSharp::PotionData
+  potionName: "Killer\u2019s Instinct"
+  description: ???
+  icon: {fileID: 21300000, guid: e7a676ffaaf587043b8cbb5355b73339, type: 3}
+  maxStack: 999
+  isConsumable: 1
+  healAmount: 0
+  duration: 60
+  bonusATKPercent: 0
+  bonusDEFPercent: 0
+  bonusCritRate: 0.5
+  bonusCritDamage: 0.5
+  material1: {fileID: 11400000, guid: 7980c6add0d0f3240bd3e5fe153a3760, type: 2}
+  material1Amount: 1
+  material2: {fileID: 11400000, guid: 9c15df03d9e832c46ad7b1d26f9cdb57, type: 2}
+  material2Amount: 1

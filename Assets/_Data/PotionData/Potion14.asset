@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b4c07cf497659945863f599e514e966, type: 3}
+  m_Name: Potion14
+  m_EditorClassIdentifier: Assembly-CSharp::PotionData
+  potionName: "Grim Reaper\u2019s Soup"
+  description: ???
+  icon: {fileID: 21300000, guid: b437f22364b265f4d9018c6007443f7c, type: 3}
+  maxStack: 999
+  isConsumable: 1
+  healAmount: 0
+  duration: 60
+  bonusATKPercent: 1
+  bonusDEFPercent: -0.5
+  bonusCritRate: 0
+  bonusCritDamage: 0
+  material1: {fileID: 11400000, guid: 1a1abe35e7b40e3479e238a0d7cd40e1, type: 2}
+  material1Amount: 1
+  material2: {fileID: 11400000, guid: 8acdc58ac41c54b4cb33c8d419e7679c, type: 2}
+  material2Amount: 1

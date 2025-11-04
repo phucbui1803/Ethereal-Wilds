@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b91aa7041b0e9a144b2320c23ee03c79, type: 3}
+  m_Name: CollectFlower
+  m_EditorClassIdentifier: Assembly-CSharp::QuestData
+  questName: Collect Flower
+  description: Collect 5 Wildbloom Flowers
+  type: 1
+  npcName: Abe
+  enemyTag: 
+  targetCount: 0
+  itemName: Wildbloom
+  collectAmount: 5
+  potionName: 
+  craftAmount: 0
+  rewardXP: 1000
+  rewardItems:
+  - item: {fileID: 11400000, guid: fd9877579e7178942b84d331beee2574, type: 2}
+    amount: 100
+  - item: {fileID: 11400000, guid: f562fd135402f2e4c8c2220d3e0bbc2c, type: 2}
+    amount: 5000
+  currentProgress: 0
